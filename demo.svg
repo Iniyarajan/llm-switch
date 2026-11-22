@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="250" viewBox="0 0 820 250" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+  <rect width="820" height="250" rx="10" fill="#0D1117"/>
+  <path d="M0 10 a10 10 0 0 1 10 -10 h800 a10 10 0 0 1 10 10 v26 h-820 z" fill="#161B22"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F56"/>
+  <circle cx="42" cy="18" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="18" r="6" fill="#27C93F"/>
+  <text x="410" y="23" fill="#8B949E" text-anchor="middle" font-size="13">llm-switch — ask</text>
+  <text x="24" y="70" fill="#E6EDF3" xml:space="preserve">
+    <tspan x="24"><tspan fill="#58A6FF">$</tspan> ask -m deepseek "classify: 'where's my parcel LR 4471?'"</tspan>
+    <tspan x="24" dy="27" fill="#E6EDF3">track_parcel</tspan>
+    <tspan x="24" dy="24" fill="#8B949E" font-size="13">[or-deepseek · deepseek/deepseek-chat]  48+3 tok · 0.6s · $0.00004</tspan>
+    <tspan x="24" dy="40"><tspan fill="#58A6FF">$</tspan> echo "2^10 in one word" | ask        <tspan fill="#6E7681"># free local model</tspan></tspan>
+    <tspan x="24" dy="27" fill="#E6EDF3">1024</tspan>
+    <tspan x="24" dy="24" fill="#8B949E" font-size="13">[local-qwen · qwen2.5:7b]  14+2 tok · 0.3s · $0.0</tspan>
+  </text>
+</svg>

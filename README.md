@@ -8,6 +8,8 @@ The point: move high-volume, scoped work (classification, extraction, templated
 replies) off expensive frontier APIs onto cheap open-weight models — but *measure
 first*, and keep the frontier for the hard calls.
 
+<p align="center"><img src="demo.svg" alt="llm-switch ask demo — the same query routed to a cheap cloud model and a free local one" width="760"></p>
+
 ```python
 from llm import chat
 print(chat("local-qwen",  "Summarize: ...")["text"])   # free, offline
